@@ -20,5 +20,5 @@ type Set struct {
 // all of the expected endpoint middlewares via the various
 // parameters.
 func New(svc addservice.Service, logger log.Logger, duration metrics.Histogram, otTracer stdopentracing.Tracer, zipkinTracer *stdzipkin.Tracer) Set {
-
+	panic("Not implemented")
 }
